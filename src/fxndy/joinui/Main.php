@@ -52,7 +52,7 @@ class Main extends PluginBase implements Listener
 		];
 		$b = [
 			$player->getName(),
-			$player->getPing(),
+			$player->getNetworkSession()->getPing(),
 			count($this->getServer()->getOnlinePlayers()),
 			"\n"
 		];
