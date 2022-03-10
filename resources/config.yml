@@ -1,0 +1,12 @@
+show-form: true
+button: true
+
+
+
+#{player_name} => get Player Name
+#{ping} => get Player Ping
+#{online} => get Online Players
+#{line} => \n
+title-form: "SimpleJoinUI"
+content-form: "Welcome :D"
+button-name: "Ok"
